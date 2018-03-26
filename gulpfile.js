@@ -5,7 +5,7 @@ const imageminZopfli = require('imagemin-zopfli');
 const imageminMozjpeg = require('imagemin-mozjpeg'); // need to run 'brew install libpng'
 const imageminGiflossy = require('imagemin-giflossy');
 
-gulp.task('imagemin', () =>
+gulp.task('esketit', () =>
   gulp.src(['src/**/*.{gif,png,jpg,jpeg,svg}'])
     .pipe(imagemin([
     // png
